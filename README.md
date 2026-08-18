@@ -8,7 +8,7 @@ This project simulates a batch bioreactor for biomass production and generates s
 ---
 
 1. Implement specific growth rate models mu, temperature/pH inhibition factors, and numerical integration (Euler method).
-2. Generate a static dataset
+2. Generate a static dataset.
 
 ---
 
@@ -40,12 +40,3 @@ Future Commits:
 Add a third menu option to train and compare Linear Regression vs. Random Forest using Scikit-learn.
 
 Deploy a real-time dashboard using Streamlit to interact with S0, T, and pH sliders.
-
----
-
-Clone the repository:
-
-git clone https://github.com/ChemicalMindset/bioreactor-hybrid-modelling.git
-cd bioreactor-hybrid-modelling
-
-python Fermentation_Optimization.py
